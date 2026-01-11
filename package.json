@@ -1,0 +1,38 @@
+{
+  "name": "karibu-groceries-ltd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^17.0.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazinahmed2010/Karibu-Groceries-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mazinahmed2010/Karibu-Groceries-Project/issues"
+  },
+  "homepage": "https://github.com/mazinahmed2010/Karibu-Groceries-Project#readme"
+}

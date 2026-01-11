@@ -1,0 +1,37 @@
+# أنشئ ملف .gitignore
+echo "
+# ملفات النظام
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ملفات IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ملفات البيئات الافتراضية
+venv/
+env/
+node_modules/
+
+# ملفات السرية
+.env
+*.key
+*.pem
+secrets/
+config.json
+
+# ملفات المخرجات
+__pycache__/
+*.pyc
+*.class
+*.exe
+*.dll
+
+# ملفات النسخ الاحتياطي
+*.bak
+*.tmp
+*.log
+" > .gitignore
